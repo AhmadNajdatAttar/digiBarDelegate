@@ -1,0 +1,70 @@
+name: digi_bar_delegate
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  easy_localization: ^3.0.7
+  # animated_theme_switcher: ^2.0.10
+  rounded_loading_button_plus: ^3.0.1
+  provider: ^6.1.2
+  dio: ^5.7.0
+  http: ^1.2.2
+  shared_preferences: ^2.3.5
+  cached_network_image: ^3.4.1
+  flutter_skeleton_plus: ^0.0.2
+  image_picker: ^1.1.2
+  geolocator: ^13.0.2
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/translations/
+
+
+
+  fonts:
+    # english
+
+    - family: balingka
+      fonts:
+        - asset: assets/fonts/english/balingka/balingka.ttf
+          weight: 900
+    - family: creato
+      fonts:
+        - asset: assets/fonts/english/creato/creato.ttf
+          weight: 900
+    
+    # arabic
+
+    - family: arabeh
+      fonts:
+        - asset: assets/fonts/arabic/arabeh/arabeh.ttf
+          weight: 900
+    - family: hacen
+      fonts:
+        - asset: assets/fonts/arabic/hacen/hacen.ttf
+          weight: 900
+

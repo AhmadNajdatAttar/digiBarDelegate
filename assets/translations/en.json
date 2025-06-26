@@ -1,0 +1,97 @@
+{
+  "login": {
+    "loginForm": {
+      "userName": "userName",
+      "password": "Password",
+      "validation": {
+        "thisFieldIsRequired": "This field is required",
+        "incorrectInformation": "Incorrect information",
+        "newLoginRequired": "New login required",
+        "retryingAfter": "ٍRetrying after",
+        "passwordUpdatedSuccessfully": "Password updated successfully",
+        "passwordDoesNotMatch": "Password does not match",
+        "passwordMustBeAtLeast8CharactersLong": "Password must be at least 8 characters long."
+      }
+    },
+    "button": {
+      "login": "login",
+      "logOut": "Log out",
+      "modifyPassword": "Modify password",
+      "changeImage": "Change image"
+    },
+    "modifyPassword": {
+      "newPassword": "New Password",
+      "currentPassword": "Current Password",
+      "confirmPassword": "Confirm Password"
+    },
+    "logout": {
+      "areYouSureToLogout": "are you sure to logout!"
+    }
+  },
+  "font": {
+    "primary": "creato"
+  },
+  "globalVocabulary": {
+    "seconds": "Seconds",
+    "cancel": "Cancel",
+    "selectImageSource": "Select image source",
+    "gallery": "Gallery",
+    "camera": "Camera",
+    "confirm": "Confirm",
+    "imageUpdatedSuccessfully": "Image updated successfully",
+    "imageUpdateFailed": "Image update failed",
+    "enterTheRequiredData": "Enter the required data",
+    "theOperationFailed": "The operation failed.",
+    "city": "City",
+    "country": "Country",
+    "areYouSureAboutTheOperation": "Are you sure about the operation !"
+  },
+  "home": {
+    "subscriptions": {
+      "subscriptions": "Subscriptions",
+      "subscriptionsList": "Subscriptions list",
+      "newMainSubscription": {
+        "subscriptionForm": {
+          "clientName": "Client name",
+          "clientAddress": "Client address",
+          "ownerFullName": "Owner full name",
+          "ownerPhoneNumber": "Owner phone number",
+          "managerFullName": "Manager full name",
+          "managerPhoneNumber": "Manager phone number",
+          "clientCategory": "Client category",
+          "clientCoordinates": "Client coordinates",
+          "subscriptionPlan": "Subscription plan",
+          "clientClassification": "Client classification",
+          "supportPlan": "Support plan",
+          "taxSynchronizationRequired": "Tax synchronization required",
+          "taxAccountRequired": "Tax account required"
+        },
+        "halls": {
+          "halls": "Halls",
+          "atLeastOneHallMustBeAdded": "At least one hall must be added.",
+          "addHall": "Add hall",
+          "hallName": "Hall name",
+          "atLeastOneHallMustBeEntered": "At least one hall must be entered."
+        },
+        "tax": {
+          "taxNumber": "Tax number",
+          "accountUsername": "Account username",
+          "accountPassword": "Account password",
+          "addNewTaxAccount": "Add new tax account",
+          "selectTaxAccountFromTheList": "Select a tax account from the list"
+        },
+        "subscriptionPayment": {
+          "paymentReceipt": "Payment receipt",
+          "receiptValue": "Receipt value",
+          "receiptImage": "Receipt image",
+          "receiptCategory": "Receipt category",
+          "addReceipt": "Add receipt"
+        },
+        "newMainSubscription": "New main subscription"
+      },
+      "newSupportSubscription": {
+        "newSupportSubscription": "New support subscription"
+      }
+    }
+  }
+}

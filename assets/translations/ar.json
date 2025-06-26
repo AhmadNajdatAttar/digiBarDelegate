@@ -1,0 +1,97 @@
+{
+  "login": {
+    "loginForm": {
+      "userName": "إسم المستخدم",
+      "password": "كلمة المرور",
+      "validation": {
+        "thisFieldIsRequired": "هـذا الحقل مطلوب",
+        "incorrectInformation": "معلومات غير صحيحة",
+        "newLoginRequired": "يجب تسجيل دخول جديد",
+        "retryingAfter": "إعادة المحاولة بعد",
+        "passwordUpdatedSuccessfully": "تم تحديث كلمة المرور بنجاح",
+        "passwordDoesNotMatch": "كلمة المرور غير متطابقة",
+        "passwordMustBeAtLeast8CharactersLong": "كلمة المرور يجب أن تكون على الآقل ٨ محارف"
+      }
+    },
+    "button": {
+      "login": "دخول",
+      "logOut": "تسجيل خروج",
+      "modifyPassword": "تعديل كلمة المرور",
+      "changeImage": "تغيير الصورة"
+    },
+    "modifyPassword": {
+      "newPassword": "كلمة المرور الجديدة",
+      "currentPassword": "كلمة المرور الحالية",
+      "confirmPassword": "تأكيد كلمة المرور"
+    },
+    "logout": {
+      "areYouSureToLogout": "هل أنت متأكد من تسجيل الخروج!"
+    }
+  },
+  "font": {
+    "primary": "hacen"
+  },
+  "globalVocabulary": {
+    "seconds": "ثواني",
+    "cancel": "إلغاء",
+    "selectImageSource": "إختر مصدر الصورة",
+    "gallery": "معرض الصور",
+    "camera": "كاميرا",
+    "confirm": "تأكيد",
+    "imageUpdatedSuccessfully": "تم تحديث الصورة بنجاح",
+    "imageUpdateFailed": "فشلت عملية تحديث الصورة",
+    "enterTheRequiredData": "أدخل البيانات المطلوبة",
+    "theOperationFailed": "فشلت العملية",
+    "city": "المدينة",
+    "country": "الدولة",
+    "areYouSureAboutTheOperation": "هل أنت متأكد من العملية !"
+  },
+  "home": {
+    "subscriptions": {
+      "subscriptions": "الاشتراكات",
+      "subscriptionsList": "قائمة الاشتراكات",
+      "newMainSubscription": {
+        "subscriptionForm": {
+          "clientName": "اسم العميل",
+          "clientAddress": "عنوان العميل",
+          "ownerFullName": "الاسم الكامل للمالك",
+          "ownerPhoneNumber": "رقم هاتف المالك",
+          "managerFullName": "الاسم الكامل للمدير",
+          "managerPhoneNumber": "رقم هاتف المدير",
+          "clientCategory": "فئة العميل",
+          "clientCoordinates": "احداثيات العميل",
+          "subscriptionPlan": "خطة الاشتراك",
+          "clientClassification": "تصنيف العميل",
+          "supportPlan": "خطة الدعم",
+          "taxSynchronizationRequired": "مطلوب مزامنة الضرائب",
+          "taxAccountRequired": "مطلوب حساب ضريبي"
+        },
+        "halls": {
+          "halls": "الصالات",
+          "atLeastOneHallMustBeAdded": "يجب إضافة صالة واحدة على الأقل",
+          "addHall": "إضافة صالة",
+          "hallName": "إسم الصالة",
+          "atLeastOneHallMustBeEntered": "يجب إدخال صالة واحدة على الأقل"
+        },
+        "tax": {
+          "taxNumber": "الرقم الضريبي",
+          "accountUsername": "إسم مستخدم الحساب",
+          "accountPassword": "كلمة مرور الحساب",
+          "addNewTaxAccount": "إضافة حساب ضريبي جديد",
+          "selectTaxAccountFromTheList": "إختيار حساب ضريبي من القائمة"
+        },
+        "subscriptionPayment": {
+          "paymentReceipt": "إيصال دفع",
+          "receiptValue": "قيمة الإيصال",
+          "receiptImage": "صورة الإيصال",
+          "receiptCategory": "فئة الإيصال",
+          "addReceipt": "إضافة إيصال"
+        },
+        "newMainSubscription": "اشتراك رئيسي جديد"
+      },
+      "newSupportSubscription": {
+        "newSupportSubscription": "إشتراك دعم جديد"
+      }
+    }
+  }
+}
